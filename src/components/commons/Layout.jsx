@@ -6,11 +6,11 @@ import IconFixedLeft from "./IconFixedLeft";
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <Header />
       <IconFixedRight />
       <IconFixedLeft />
-      <main>{children}</main>
+      <main >{children}</main>
       <Footer />
     </div>
   );

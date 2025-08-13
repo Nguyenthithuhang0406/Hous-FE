@@ -47,7 +47,7 @@ const Banner = () => {
     },
   ];
   return (
-    <div className="w-full absolute top-0 left-0 flex items-center justify-center">
+    <div className="w-full relative top-0 left-0 flex items-center justify-center">
       <button
         ref={prevRef}
         className={`absolute z-10 left-[10px] bg-slate-100 text-[#9a542c] p-[4px] text-[25px] shadow-lg rounded-lg ${
@@ -85,19 +85,19 @@ const Banner = () => {
             <div className="absolute top-0 left-0 w-full h-[100vh] z-10 flex flex-col  gap-[20px] items-center justify-center px-[50px]  md:px-[100px] lg:px-[200px] xl:px-[300px]">
               <p
                 data-aos="fade-down"
-                className="text-[30px] break-words text-center text-[#9a542c] leading-[120%] font-semibold py-[3px] border-b-[2px] border-b-[#9a542c]"
+                className="text-[25px] md:text-[30px] break-words text-center text-[#9a542c] leading-[120%] font-semibold py-[3px] border-b-[2px] border-b-[#9a542c]"
               >
                 CHÀO MỪNG BẠN ĐẾN VỚI CHÚNG TÔI
               </p>
               <p
                 data-aos="fade-right"
-                className="text-[50px] break-words text-[#efefef] leading-[140%] text-center font-bold"
+                className="text-[30px] ms:text-[35px] md:text-[40px] lg:text-[50px] break-words text-[#efefef] leading-[140%] text-center font-bold"
               >
                 Haus - Chuyên Thi Công & Cung Cấp Sản Phẩm Nội Thất Cao Cấp
               </p>
               <p
                 data-aos="fade-left"
-                className="text-[20px] text-center break-words text-[#efefef] leading-[140%]"
+                className="text-[16px] sm:text-[18px] md:text-[20px] text-center break-words text-[#efefef] leading-[140%]"
               >
                 Đơn vị chuyên nghiệp trong lĩnh vực thi công nội thất trọn gói
                 và cung cấp sản phẩm nội thất cao cấp, mang đến không gian sống
