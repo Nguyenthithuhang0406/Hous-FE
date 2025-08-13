@@ -2,7 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
+      },
+    },
     screens: {
       xs: "360px",
       xm: "480px",
@@ -15,4 +19,3 @@ export default {
   },
   plugins: [],
 };
-

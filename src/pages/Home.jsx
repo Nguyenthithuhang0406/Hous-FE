@@ -1,11 +1,13 @@
-import React from 'react'
+import Layout from "@/components/commons/Layout";
+import Banner from "@/components/home/Banner";
+import React from "react";
 
 const Home = () => {
   return (
-    <div className="font-semibold text-2xl text-center mt-10 text-red-500">
-      Home pages
-    </div>
-  )
-}
+    <Layout>
+      <Banner />
+    </Layout>
+  );
+};
 
-export default Home
+export default Home;
