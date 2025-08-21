@@ -6,6 +6,15 @@ export default {
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
       },
+      keyframes: {
+        stripes: {
+          "0%": { backgroundPosition: "0 0" },
+          "100%": { backgroundPosition: "40px 0" },
+        },
+      },
+      animation: {
+        stripes: "stripes 3s linear infinite",
+      },
     },
     screens: {
       xs: "360px",

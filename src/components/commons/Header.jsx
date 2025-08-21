@@ -87,7 +87,7 @@ const Header = () => {
 
         {/* Search */}
         <div className="relative w-3/5 lg:w-2/5 max-w-lg h-[50px] flex items-center">
-          <button className="absolute left-[10px] top-[10px] h-[30px] w-[30px] rounded-full border-none bg-[#B97E5B] text-[#efefef] flex items-center justify-center hover:bg-[#9a542c] z-10">
+          <button className="absolute left-[10px] top-[10px] h-[30px] w-[30px] rounded-full border-none bg-[#ad7555] text-[#efefef] flex items-center justify-center hover:bg-[#9a542c] z-10">
             <FiSearch className="w-[18px] h-[18px]" />
           </button>
           <input
