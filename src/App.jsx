@@ -1,9 +1,20 @@
-import React, { lazy, Suspense } from "react";
+import React, { lazy, Suspense, useEffect } from "react";
 import { useRoutes } from "react-router-dom";
+import "swiper/css";
+import "swiper/css/navigation";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Home = lazy(() => import("@/pages/Home"));
 
 const App = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Thời gian hiệu ứng (ms)
+      once: true, // Chỉ chạy một lần khi cuộn
+    });
+  }, []);
+
   const routes = useRoutes([{ path: "/", element: <Home /> }]);
 
   return <Suspense fallback={<div>Loading...</div>}>{routes}</Suspense>;
