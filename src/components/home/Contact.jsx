@@ -12,11 +12,11 @@ const Contact = () => {
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
         }}
-        className="w-full h-[303px] relative"
+        className="w-full h-[700px] sm:h-[303px] relative"
       >
         <div
           data-aos="fade-down"
-          className="mx-[20px]  md:mx-[50px] xl:mx-[130px] bg-[#ad7555] rounded-md p-[40px] flex items-center justify-between absolute top-[250px]"
+          className="mx-[20px]  md:mx-[50px] xl:mx-[130px] bg-[#ad7555] rounded-md p-[40px] flex flex-col sm:flex-row items-center justify-between absolute top-[250px]"
         >
           <div className="w-2/3 lg:w-3/4 flex flex-col gap-[20px] text-[#ffffff]">
             <p className="text-[20px] lg:text-[26px] xl:text-[30px] font-semibold leading-[120%]">

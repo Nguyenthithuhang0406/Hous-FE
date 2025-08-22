@@ -5,7 +5,7 @@ const Process = () => {
   const processes = listProcess;
 
   return (
-    <div className="w-full px-[20px]  md:px-[50px] lg:px-[130px] py-[50px] flex flex-col gap-[50px] items-center justify-center">
+    <div className="w-full px-[20px]  md:px-[50px] lg:px-[130px] py-[50px] flex flex-col gap-[50px] items-center justify-center bg-[#f4f3f3]">
       <div
         data-aos="fade-down"
         className="flex flex-col items-center justify-center gap-[20px]"
@@ -22,7 +22,7 @@ const Process = () => {
           {/* 1 */}
           <div data-aos="fade-right" className="w-1/2 flex flex-col gap-[20px]">
             <div className="w-full flex flex-col gap-[30px] items-center justify-center">
-              <div className="relative bg-[#e7e6e6] shadow-lg rounded-full p-[7px] w-[100px] h-[100px] xl:w-[130px] xl:h-[130px] flex items-center justify-center">
+              <div className="relative bg-[#fff] shadow-lg rounded-full p-[7px] w-[100px] h-[100px] xl:w-[130px] xl:h-[130px] flex items-center justify-center">
                 <div className="absolute top-0 left-0 z-10 h-[40px] w-[40px] rounded-full bg-[#ad7555] flex items-center justify-center text-white text-[14px] font-medium">
                   {processes[0].number}
                 </div>
@@ -36,7 +36,7 @@ const Process = () => {
                 <img
                   src="https://bizweb.dktcdn.net/100/570/902/themes/1027061/assets/icon-arrow.png?1750130832000"
                   alt="Arrow"
-                  className="absolute z-10 hidden md:block md:left-[200px] lg:left-[130px] xl:left-[150px] md:w-[100px] lg:w-[80px] xl:w-[100px] top-[30px]"
+                  className="absolute z-10 hidden md:block md:left-[200px] lg:left-[130px] xl:left-[170px] md:w-[100px] lg:w-[80px] xl:w-[100px] top-[30px]"
                 />
               </div>
 
@@ -54,7 +54,7 @@ const Process = () => {
           {/* 2 */}
           <div data-aos="fade-right" className="w-1/2 flex flex-col gap-[20px]">
             <div className="w-full flex flex-col gap-[30px] items-center justify-center">
-              <div className="relative bg-[#e7e6e6] shadow-lg rounded-full p-[7px] w-[100px] h-[100px] xl:w-[130px] xl:h-[130px] flex items-center justify-center">
+              <div className="relative bg-[#fff] shadow-lg rounded-full p-[7px] w-[100px] h-[100px] xl:w-[130px] xl:h-[130px] flex items-center justify-center">
                 <div className="absolute top-0 left-0 z-10 h-[40px] w-[40px] rounded-full bg-[#ad7555] flex items-center justify-center text-white text-[14px] font-medium">
                   {processes[1].number}
                 </div>
@@ -68,7 +68,7 @@ const Process = () => {
                 <img
                   src="https://bizweb.dktcdn.net/100/570/902/themes/1027061/assets/icon-arrow.png?1750130832000"
                   alt="Arrow"
-                  className="absolute z-10 hidden lg:block md:left-[200px] lg:left-[130px] xl:left-[150px] md:w-[100px] lg:w-[80px] xl:w-[100px] top-[30px]"
+                  className="absolute z-10 hidden lg:block md:left-[200px] lg:left-[130px] xl:left-[170px] md:w-[100px] lg:w-[80px] xl:w-[100px] top-[30px]"
                 />
               </div>
 
@@ -88,7 +88,7 @@ const Process = () => {
           {/* 3 */}
           <div data-aos="fade-right" className="w-1/2 flex flex-col gap-[20px]">
             <div className="w-full flex flex-col gap-[30px] items-center justify-center">
-              <div className="relative bg-[#e7e6e6] shadow-lg rounded-full p-[7px] w-[100px] h-[100px] xl:w-[130px] xl:h-[130px] flex items-center justify-center">
+              <div className="relative bg-[#fff] shadow-lg rounded-full p-[7px] w-[100px] h-[100px] xl:w-[130px] xl:h-[130px] flex items-center justify-center">
                 <div className="absolute top-0 left-0 z-10 h-[40px] w-[40px] rounded-full bg-[#ad7555] flex items-center justify-center text-white text-[14px] font-medium">
                   {processes[2].number}
                 </div>
@@ -102,7 +102,7 @@ const Process = () => {
                 <img
                   src="https://bizweb.dktcdn.net/100/570/902/themes/1027061/assets/icon-arrow.png?1750130832000"
                   alt="Arrow"
-                  className="absolute z-10 hidden md:block md:left-[200px] lg:left-[130px] xl:left-[150px] md:w-[100px] lg:w-[80px] xl:w-[100px] top-[30px]"
+                  className="absolute z-10 hidden md:block md:left-[200px] lg:left-[130px] xl:left-[170px] md:w-[100px] lg:w-[80px] xl:w-[100px] top-[30px]"
                 />
               </div>
 
@@ -120,7 +120,7 @@ const Process = () => {
           {/* 4 */}
           <div data-aos="fade-right" className="w-1/2 flex flex-col gap-[20px]">
             <div className="w-full flex flex-col gap-[30px] items-center justify-center">
-              <div className="relative bg-[#e7e6e6] shadow-lg rounded-full p-[7px] w-[100px] h-[100px] xl:w-[130px] xl:h-[130px] flex items-center justify-center">
+              <div className="relative bg-[#fff] shadow-lg rounded-full p-[7px] w-[100px] h-[100px] xl:w-[130px] xl:h-[130px] flex items-center justify-center">
                 <div className="absolute top-0 left-0 z-10 h-[40px] w-[40px] rounded-full bg-[#ad7555] flex items-center justify-center text-white text-[14px] font-medium">
                   {processes[3].number}
                 </div>

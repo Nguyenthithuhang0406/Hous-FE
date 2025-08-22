@@ -83,11 +83,11 @@ const Materials = () => {
   ];
 
   return (
-    <div className="w-full px-[20px]  md:px-[50px] lg:px-[130px] py-[20px] flex flex-col gap-[50px]">
+    <div className="w-full px-[20px]  md:px-[50px] lg:px-[130px] pt-[250px] sm:pt-[20px] py-[20px] flex flex-col gap-[50px]">
       {/* header */}
       <div
         data-aos="fade-down"
-        className="w-full flex items-center justify-between"
+        className="w-full flex flex-col sm:flex-row items-center justify-between"
       >
         <div className="flex flex-col gap-[30px]">
           <p className="text-[18px] w-fit leading-[140%] text-[#ad7555] font-medium py-[2px] border-b-[2px] border-[#ad7555]">

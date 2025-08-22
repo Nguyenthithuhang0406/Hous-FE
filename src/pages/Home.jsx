@@ -9,6 +9,10 @@ import BestSeller from "@/components/home/BestSeller";
 import Contact from "@/components/home/Contact";
 import Materials from "@/components/home/Materials";
 import Process from "@/components/home/Process";
+import Reason from "@/components/home/Reason";
+import FAQ from "@/components/home/FAQ";
+import ReComment from "@/components/home/ReComment";
+import News from "@/components/home/News";
 
 const Home = () => {
   return (
@@ -22,6 +26,10 @@ const Home = () => {
       <Contact />
       <Materials />
       <Process />
+      <Reason />
+      <FAQ />
+      <ReComment />
+      <News />
     </Layout>
   );
 };

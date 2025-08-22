@@ -39,7 +39,7 @@ const About = () => {
           ))}
         </div>
       </div>
-      <div data-aos="fade-right" className="w-full lg:w-2/5">
+      <div data-aos="flip-left" className="w-full lg:w-2/5">
         <img
           src="https://bizweb.dktcdn.net/100/570/902/themes/1027061/assets/img_mobile_about.png?1755227708045"
           alt="About Us"
