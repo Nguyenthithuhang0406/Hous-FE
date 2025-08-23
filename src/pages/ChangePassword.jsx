@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Link } from "react-router-dom";
 const ChangePassword = () => {
     const [currentPassword, setCurrentPassword] = useState('');
     const [newPassword, setNewPassword] = useState('');
@@ -101,27 +101,25 @@ const ChangePassword = () => {
                             </p>
                             
                             <nav className="space-y-2">
-                                <a
-                                    href="#"
+                                <Link
+                                    to="/view-infor" 
                                     className="block w-full text-left py-2 px-3 rounded transition-colors text-gray-700 hover:bg-gray-100"
                                 >
                                     Thông tin tài khoản
-                                </a>
-                                <a
-                                    href="#"
+                                </Link>
+                                <Link to="#"        
                                     className="block w-full text-left py-2 px-3 rounded transition-colors text-gray-700 hover:bg-gray-100"
                                 >
                                     Đơn hàng của bạn
-                                </a>
-                                <a href="#" className="block w-full text-left py-2 px-3 rounded  text-[#ad7555] font-medium">
+                                </Link>
+                                <Link to="/change-password" className="block w-full text-left py-2 px-3 rounded  text-[#ad7555] font-medium">
                                     Đổi mật khẩu
-                                </a>
-                                <a
-                                    href="#"
+                                </Link>
+                                <Link to="#"                                    
                                     className="block w-full text-left py-2 px-3 rounded transition-colors text-gray-700 hover:bg-gray-100"
                                 >
                                     Sổ địa chỉ (0)
-                                </a>
+                                </Link>
                             </nav>
                         </div>
                     </div>
