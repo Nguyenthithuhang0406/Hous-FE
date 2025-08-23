@@ -18,7 +18,7 @@ const Login = () => {
     });
     const [errors, setErrors] = useState({});
 
-    // Init AOS
+
     useEffect(() => {
         AOS.init({ duration: 800, once: false, offset: 100 });
     }, []);
@@ -26,13 +26,12 @@ const Login = () => {
         AOS.refresh();
     }, [isLogin]);
 
-    // Check trạng thái login từ localStorage
     useEffect(() => {
         const loggedIn = localStorage.getItem("isLoggedIn") === "true";
         setIsLoggedIn(loggedIn);
     }, []);
 
-    // Reset form khi đổi chế độ
+
     useEffect(() => {
         setFormData({
             firstName: "",
@@ -43,8 +42,8 @@ const Login = () => {
             confirmPassword: "",
         });
         setErrors({});
-        setShowPassword(false);          // reset luôn
-        setShowConfirmPassword(false);   // reset luôn
+        setShowPassword(false);
+        setShowConfirmPassword(false);
     }, [isLogin]);
 
     const handleChange = (e) => {
