@@ -1,5 +1,5 @@
-import pc2 from "../../img/anhthietke1.webp";
 import React, { useState, useEffect } from "react";
+import pc2 from "../../img/anhthietke1.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
