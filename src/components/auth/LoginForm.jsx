@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-export default function LoginForm() {
+const LoginForm = () => {
     const [isLogin, setIsLogin] = useState(true);
     const [showPassword, setShowPassword] = useState(false);
     const [showConfirmPassword, setShowConfirmPassword] = useState(false);
@@ -343,3 +343,6 @@ export default function LoginForm() {
         </div>
     );
 }
+
+export default LoginForm
+

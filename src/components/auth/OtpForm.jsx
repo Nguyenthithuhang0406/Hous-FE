@@ -4,7 +4,7 @@ import { FaUserLock } from "react-icons/fa";
 const AuthenOTP = ({ email, onSubmit, onResend }) => {
     const [otp, setOtp] = useState(new Array(6).fill(""));
     const inputRefs = useRef([]);
-
+    // Quan ly thoi gian gui lai
     const [timeLeft, setTimeLeft] = useState(120);
 
     useEffect(() => {
