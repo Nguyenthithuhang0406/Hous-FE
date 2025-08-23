@@ -5,7 +5,9 @@ import "swiper/css/navigation";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+
 const Home = lazy(() => import("@/pages/Home"));
+const ForgotPassword = lazy(()=> import("@/components/auth/ForgotPassword"))
 
 const App = () => {
   useEffect(() => {
@@ -15,7 +17,9 @@ const App = () => {
     });
   }, []);
 
-  const routes = useRoutes([{ path: "/", element: <Home /> }]);
+  const routes = useRoutes([{ path: "/", element: <Home /> },
+    { path: "/forgot-password", element: <ForgotPassword /> }]);
+
 
   return <Suspense fallback={<div>Loading...</div>}>{routes}</Suspense>;
 };
