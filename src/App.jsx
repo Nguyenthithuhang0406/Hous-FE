@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 
 const Home = lazy(() => import("@/pages/Home"));
 const ForgotPassword = lazy(()=> import("@/components/auth/ForgotPassword"))
+const ChangePassword = lazy(()=> import("@/components/auth/ChangePassword"))
 
 const App = () => {
   useEffect(() => {
@@ -18,7 +19,8 @@ const App = () => {
   }, []);
 
   const routes = useRoutes([{ path: "/", element: <Home /> },
-    { path: "/forgot-password", element: <ForgotPassword /> }]);
+    { path: "/forgot-password", element: <ForgotPassword /> },
+    {path:"/change-password",element:<ChangePassword/>}]);
 
 
   return <Suspense fallback={<div>Loading...</div>}>{routes}</Suspense>;

@@ -11,7 +11,7 @@ const ForgotPassword = () => {
     const validateEmail = (email, isForForgot = false) => {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!email.includes('@')) {
-            const errorMsg = "Vui lòng bao gồm '@' trong địa chỉ email. 'môm' bị thiếu '@'.";
+            const errorMsg = "Vui lòng bao gồm '@' trong địa chỉ email. "+email+" bị thiếu '@'.";
             if (isForForgot) {
                 setForgotEmailError(errorMsg);
             } else {
